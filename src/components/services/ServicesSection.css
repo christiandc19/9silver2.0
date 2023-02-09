@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.ServicesSection {
+    width: 100%;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.ServicesSection .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.ServicesSection-container {
+    text-align: center;
+    padding: 25px;
+}
+
+.ServicesSection-container p {
+        font-family: 'Montserrat', sans-serif;
+        color: var(--primary-dark);
+    }
+
+.ServicesSection h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Services-thumbnail  {
+    margin: 5px;
+    width: 300px;
+    padding: 5px;
+}
+
+.ServicesSection .flex-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ServicesSection-btn button {
+    margin: 1rem auto;
+}
+
+.group {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: -4rem;
+}
+
+@media  screen and (max-width:940px) {
+    .ServicesSection-container h1 {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+
+
+    .ServicesSection-container p {
+        font-size: 14px;
+    }
+
+    .team img {
+        width: 350px;
+    }
+
+
+    .Services-thumbnail  {
+    width: 160px;
+}
+
+}
+
+
+
+
+

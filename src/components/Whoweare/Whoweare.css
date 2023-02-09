@@ -1,0 +1,57 @@
+
+
+.homepage-wrap .homepage-title h1 {
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+
+.homepage-wrap {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+  }
+  
+  .SoberLiving-box {
+      height: auto;
+      width: 400px;
+      display: inline-block;
+      margin: 1rem;
+  }
+  
+  .homepage-wrap h1 {
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  .homepage-wrap li {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+  
+  .box img {
+      border-radius: 10px;
+  }
+  
+  .homepage-wrap p {
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif;
+      text-align: justify;
+  }
+
+  .box-btn {
+      text-align: center;
+  }
+
+  /* MEDIA QUERIES - HERO */
+
+@media screen and (max-width:940px) {
+
+.hide img{
+    display: none;
+}
+
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.NorthCitrus-section-header {
+    width: auto;
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+
+.NorthCitrus-section-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.NorthCitrus-section-header p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.homes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap ;
+}

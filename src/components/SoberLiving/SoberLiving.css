@@ -40,7 +40,16 @@
 }
 
 
+.SoberLiving-box {
+    width: 500px;
+}
 
+.SoberLiving-box img {
+     height: auto;
+     max-width: 100%;
+     border-radius: 20px;
+     padding: 10px;
+}
 
 
 /* MEDIA QUERIES - HERO */
@@ -55,7 +64,6 @@
 .SoberLiving-title h1 {
     font-size: 1.5rem;
 }
-
 }
 
 .SoberLiving-wrap {
@@ -81,10 +89,7 @@
     text-align: justify;
 }
   
-  .box img {
-      border-radius: 10px;
-  }
-  
+
   .SoberLiving-wrap p {
       font-size: 15px;
       font-family: 'Montserrat', sans-serif;
@@ -98,10 +103,6 @@
   /* MEDIA QUERIES */
   
   @media screen and (max-width:940px) {
-  
-      .treatment-box img {
-          display: none;
-      }
   
       .treatment-wrap p {
           font-size: 14px;

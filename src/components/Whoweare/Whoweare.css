@@ -17,7 +17,6 @@
   
   .SoberLiving-box {
       height: auto;
-      width: 400px;
       display: inline-block;
       margin: 1rem;
   }
@@ -46,12 +45,3 @@
       text-align: center;
   }
 
-  /* MEDIA QUERIES - HERO */
-
-@media screen and (max-width:940px) {
-
-.hide img{
-    display: none;
-}
-
-}

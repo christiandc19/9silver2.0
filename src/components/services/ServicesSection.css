@@ -29,9 +29,21 @@
 }
 
 .Services-thumbnail  {
-    margin: 5px;
-    width: 300px;
+    border: 1px solid rgba(161, 101, 10, 0.181);
+    margin: 1rem;
+    width: 200px;
+    height: 130px;
     padding: 5px;
+    border-radius: 10px;
+    padding: 1.5rem;
+
+    box-shadow: 7px 11px 26px -14px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 7px 11px 26px -14px rgba(0,0,0,0.38);
+    -moz-box-shadow: 7px 11px 26px -14px rgba(0,0,0,0.38);
+}
+
+.Services-thumbnail img:hover {
+    height: 45px;
 }
 
 .ServicesSection .flex-right {

@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import logo from '../../assets/nav-logo.png'
-import { FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
+import { FiFacebook, FiInstagram, FiLinkedin} from 'react-icons/fi'
 import './FooterStyles.css'
 
 import { Link as LinkRoll } from 'react-scroll'
@@ -12,7 +12,7 @@ const Footer = () => {
 
 <>
         <div className='footer'>
-            <div className="container">
+            <div className="footer-container">
                 <div className="top">
                     <div className="logo-footer">
                     <img src={logo} width="160px" height="60px" alt="Palm Springs Rehab Logo" loading="lazy"/>
@@ -75,12 +75,10 @@ const Footer = () => {
                             <FiInstagram className='social-icon' />
                             <FiFacebook className='social-icon' />
                             <FiLinkedin className='social-icon' />
-                            <FiDribbble className='social-icon' />
-                            <FiGithub className='social-icon' />
                         </div>
                     </form>
                 </div>
-                <p className='copyright'><p>&copy; 2023 9 SILVER. All rights reserved</p></p>
+                <p className='copyright'><p>&copy; 2023 9 SILVER. ALL RIGHTS RESERVED.</p></p>
 
 
             </div>

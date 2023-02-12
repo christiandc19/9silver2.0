@@ -6,7 +6,6 @@
     height: 50vh;
     position: relative;
     background: rgba(42, 14, 73, 0.486);
-    margin-top: 2rem;
 }
 
 .footer:before {
@@ -18,11 +17,12 @@
     z-index: -1;
 }
 
-.footer .container {
+.footer .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem 5rem;
 }
 
 .footer .top {
@@ -60,7 +60,7 @@
 
 .footer .col-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 1rem;
     width: 100%;
 }
@@ -122,6 +122,7 @@
 
 .copyright p {
     color: white;
+    text-align: center;
 }
 
 @media screen and (max-width: 940px) {
@@ -139,6 +140,10 @@
 
     .footer h1, .footer h2, .footer h3 {
         text-align: left;
+    }
+
+    .footer .footer-container {
+        padding: 2rem 2rem;
     }
     
 }

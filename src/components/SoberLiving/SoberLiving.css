@@ -116,10 +116,18 @@
           font-size: 2rem;
       }
   
-  .treatment-left button {
-      margin: 1rem auto;
-  }
+      .treatment-left button {
+          margin: 1rem auto;
+        }
   
+        .SoberLiving-wrap .SoberLiving-title h1 {
+        font-size: 1rem;
+        text-align: center;
+  }
+
+
+
+
   }
 
 

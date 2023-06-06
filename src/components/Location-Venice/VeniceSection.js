@@ -15,137 +15,147 @@ const VeniceSection = () => {
                 </p>
 </div>
 
-<h1 className='NorthCitrus-section-header'>--- RETREAT ---</h1>
+              <div className="NorthCitrus-section-header container">
+                <h2>Retreat</h2>
+              </div>
 
               <div className='homes container'>
                   <Fade left>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat2.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat2.png" alt="Retreat" loading="lazy"/>
                     </div>
                     </Fade>
 
                   <Fade top>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat3.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat3.png" alt="Retreat" loading="lazy"/>
                     </div>
                   </Fade>
 
                   <Fade right>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat4.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat4.png" alt="Retreat" loading="lazy"/>
                     </div>
                   </Fade>
 
                   <Fade left>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat5.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat5.png" alt="Retreat" loading="lazy"/>
                     </div>
                   </Fade>
 
                   
                   <Fade top>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat6.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat6.png" alt="Retreat" loading="lazy"/>
                     </div>
                   </Fade>
               </div>
 
 
-              <h1 className='NorthCitrus-section-header'>--- RELAX ---</h1>
+              <div className="NorthCitrus-section-header container">
+                <h2>Relax</h2>
+              </div>
 
               <div className='homes container'>
                   <Fade left>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-relax1.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-relax1.png" alt="Relax" loading="lazy"/>
                     </div>
                     </Fade>
 
                   <Fade top>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-relax2.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-relax2.png" alt="Relax" loading="lazy"/>
                     </div>
                   </Fade>
 
                   <Fade right>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-relax3.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-relax3.png" alt="Relax" loading="lazy"/>
                     </div>
                   </Fade>
               </div>
 
 
 
-              <h1 className='NorthCitrus-section-header'>--- REST ---</h1>
+              <div className="NorthCitrus-section-header container">
+                <h2>Rest</h2>
+              </div>
 
               <div className='homes container'>
                 <Fade left>
                   <div className='thumbnail'>
-                    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-rest1.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-rest1.png" alt="Rest" loading="lazy"/>
                   </div>
               </Fade>
 
               <Fade top>
                 <div className='thumbnail'>
-                  <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-rest2.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                  <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-rest2.png" alt="Rest" loading="lazy"/>
                 </div>
               </Fade>
 
               <Fade right>
               <div className='thumbnail'>
-                <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-rest3.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-rest3.png" alt="Rest" loading="lazy"/>
               </div>
               </Fade>
 
               <Fade left>
               <div className='thumbnail'>
-                <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-rest4.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-rest4.png" alt="Rest" loading="lazy"/>
               </div>
               </Fade>
             </div>
 
 
-              <h1 className='NorthCitrus-section-header'>--- GATHER ---</h1>
+            <div className="NorthCitrus-section-header container">
+                <h2>Gather</h2>
+              </div>
 
               <div className='homes container'>
                 <Fade left>
                   <div className='thumbnail'>
-                    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-gather1.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-gather1.png" alt="Gather" loading="lazy"/>
                   </div>
               </Fade>
 
               <Fade top>
                 <div className='thumbnail'>
-                  <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-gather2.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                  <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-gather2.png" alt="Gather" loading="lazy"/>
                 </div>
               </Fade>
 
               <Fade right>
               <div className='thumbnail'>
-                <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-gather3.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-gather3.png" alt="Gather" loading="lazy"/>
               </div>
               </Fade>
             </div>        
 
 
             
-              <h1 className='NorthCitrus-section-header'>--- CLEAN ---</h1>
+            <div className="NorthCitrus-section-header container">
+                <h2>Clean</h2>
+              </div>
 
               <div className='homes container'>
                 <Fade left>
                   <div className='thumbnail'>
-                    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-clean1.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-clean1.png" alt="Clean" loading="lazy"/>
                   </div>
               </Fade>
 
               <Fade top>
                 <div className='thumbnail'>
-                  <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-clean2.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                  <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-clean2.png" alt="Clean" loading="lazy"/>
                 </div>
               </Fade>
 
               <Fade right>
               <div className='thumbnail'>
-                <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-clean3.png" width="300" height="250" alt="Therapy Session" loading="lazy"/>
+                <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-clean3.png" alt="Clean" loading="lazy"/>
               </div>
               </Fade>
             </div>  

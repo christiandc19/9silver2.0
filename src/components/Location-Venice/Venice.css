@@ -27,14 +27,15 @@
 .Venice .Venice-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
 .Venice h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
 }
 
 .Venice h3 {

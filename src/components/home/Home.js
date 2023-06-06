@@ -4,6 +4,8 @@ import ServicesSection from '../services/ServicesSection';
 import Whoweare from '../Whoweare/Whoweare'
 import ContactForm from '../contact/ContactForm';
 import Gallery from '../gallery/Gallery';
+import AboutHome from '../about/AboutHome';
+
 
 
 
@@ -14,6 +16,7 @@ const home = () => {
     <Whoweare />
     <Gallery />
     <ServicesSection />
+    <AboutHome />
     <ContactForm />
     </>
   )

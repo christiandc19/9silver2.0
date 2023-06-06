@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-
 .HuntingtonBeach {
     width: 100%;
     height: 80vh;
-    background: rgba(29, 28, 29, 0.651);
+    background: rgba(24, 23, 24, 0.651);
     position: relative;
   }
   
@@ -27,14 +26,15 @@
 .HuntingtonBeach .HuntingtonBeach-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
 .HuntingtonBeach h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
 }
 
 .HuntingtonBeach h3 {

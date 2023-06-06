@@ -4,7 +4,7 @@
 .WestHollywood {
     width: 100%;
     height: 80vh;
-    background: rgba(29, 28, 29, 0.5);
+    background: rgba(20, 20, 20, 0.5);
     position: relative;
   }
   
@@ -26,14 +26,15 @@
 .WestHollywood .WestHollywood-content {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     padding: 1rem;
 }
 
 .WestHollywood h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
 }
 
 .WestHollywood h3 {

@@ -17,6 +17,17 @@ const Cards = () => {
   return (
     <>
 
+
+
+
+
+
+
+
+
+<div className='gallery'>
+
+
             <div className="cards-header container">
                 <h1>CHOOSE THE RIGHT HOME</h1>
                 <p>Staying at our sober living housing allows you to navigate your recovery at your own pace in a safe, structured environment. </p>
@@ -120,6 +131,9 @@ const Cards = () => {
  </div>
 </div>
   
+
+</div>
+
     </>
   )
 }

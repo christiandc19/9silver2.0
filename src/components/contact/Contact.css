@@ -8,13 +8,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(39, 38, 37, 0.459);
+    /* background: rgba(39, 37, 37, 0.562); */
   }
   
   .contact-hero:before {
     content: '';
     position: absolute;
-    background: url('../../assets/menu-bg-contact.jpg') no-repeat center center/cover;
+    background: linear-gradient(to top, #4b919456, #29363656), url('../../assets/menu-bg-contact.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;

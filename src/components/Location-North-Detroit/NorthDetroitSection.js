@@ -17,36 +17,40 @@ const NorthDetroitSection = () => {
                 </p>
 </div>
 
-<h1 className='NorthDetroit-section-header'>--- GALLERY ---</h1>
+<div className="NorthCitrus-section-header container">
+                <h2>Gallery</h2>
+              </div>
+
 
               <div className='homes container'>
                   <Fade top>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/detroit1-min.jpg" width="300" height="250" alt="Home" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/detroit1-min.jpg"  alt="Home" loading="lazy"/>
                     </div>
                     </Fade>
 
                   <Fade top>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/detroit2-min.jpg" width="300" height="250" alt="Home" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/detroit2-min.jpg"  alt="Home" loading="lazy"/>
                     </div>
                   </Fade>
 
                   <Fade top>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/detroit3.jpg" width="300" height="250" alt="Home" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/detroit3.jpg" alt="Home" loading="lazy"/>
                     </div>
                   </Fade>
 
                   <Fade top>
                     <div className='thumbnail'>
-                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/detroit3.jpg" width="300" height="250" alt="Home" loading="lazy"/>
+                        <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/detroit3.jpg" alt="Home" loading="lazy"/>
                     </div>
                   </Fade>
               </div>
 
 
 <div className="NorthDetroit-section-header container">
+            <br />
             <h1>TALK TO SOMEONE AT OUR NORTH DETROIT HOME TODAY!</h1>
             <p>Our Support team is available 24 hours a day 7 Days a week.</p>
         </div>

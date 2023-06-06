@@ -7,29 +7,40 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: rgba(29, 28, 29, 0.507);
+    /* background: rgba(20, 20, 20, 0.596); */
   }
   
   .SoberLiving:before {
     content: '';
     position: absolute;
-    background: url('../../assets//menu-bg-sober-living.jpg') no-repeat center center/cover;
+    background: linear-gradient(to top, #4b919456, #29363656), url('../../assets//menu-bg-sober-living.jpg') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
   }
 
-.SoberLiving .SoberLiving-content {
+
+  .SoberLiving .SoberLiving-content {
     display: block;
     position: absolute;
     top: 35%;
     padding: 1rem;
 }
 
+
 .SoberLiving h1 {
     color: white;
     font-size: 4rem;
 }
+
+
+
+/*  SECTION 1 */
+
+  .SoberLiving-wrap {
+    padding: 3rem 0;
+  }
+
 
 .SoberLiving-wrap .SoberLiving-title h1 {
     font-size: 1.5rem;
@@ -46,7 +57,7 @@
 
 .SoberLiving-box img {
      height: auto;
-     max-width: 100%;
+     width: 100%;
      border-radius: 20px;
      padding: 10px;
 }
@@ -64,87 +75,5 @@
 .SoberLiving-title h1 {
     font-size: 1.5rem;
 }
-}
-
-.SoberLiving-wrap {
-    display: flex;
-    flex-wrap: wrap ;
-    justify-content: space-evenly;
-  }
-  
-  .SoberLiving-box {
-      height: auto;
-      width: 600px;
-      display: inline-block;
-      margin: 1rem;
-  }
-  
-  .SoberLiving-wrap h1 {
-      text-align: center;
-      font-family: 'Montserrat', sans-serif;
-  }
-
-  .SoberLiving-wrap li {
-    font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-}
-  
-
-  .SoberLiving-wrap p {
-      font-size: 15px;
-      font-family: 'Montserrat', sans-serif;
-      text-align: justify;
-  }
-
-  .box-btn {
-      text-align: center;
-  }
-  
-  /* MEDIA QUERIES */
-  
-  @media screen and (max-width:940px) {
-  
-      .treatment-wrap p {
-          font-size: 14px;
-      }
-  
-      .treatment-left {
-          width: 100%;
-      }
-  
-      .treatment-left h1 {
-          font-size: 2rem;
-      }
-  
-      .treatment-left button {
-          margin: 1rem auto;
-        }
-  
-        .SoberLiving-wrap .SoberLiving-title h1 {
-        font-size: 1rem;
-        text-align: center;
-  }
-
-
-
-
-  }
-
-
-
-
-
-
-@media screen and (max-width:940px) {
-
-    .treatment .treatment-content {
-        width: 100%;
-        padding: 25px;
-    }
-
-    .treatment p {
-        font-size: 14px;
-    }
-
 }
 

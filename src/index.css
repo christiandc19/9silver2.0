@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 :root {
-  --primary-color: #3E7B99;
+  --primary-color: rgb(43, 109, 153);
   --primary-dark: #141d35;
   --secondary-color: rgb(197, 136, 24);
 

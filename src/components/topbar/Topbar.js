@@ -10,11 +10,11 @@ const Topbar = () => {
   return (
     <div className='topbar' name='top'>
             <div className='topbar-content '>
-                <div className='address bar-box1'>
+                <div className='address bar-box1 topbox'>
                     <p><span><MdLocationPin />&nbsp;</span>1800 Vine Street, Los Angeles CA 90028</p>
                 </div>
 
-                <div className='email bar-box2'>
+                <div className='email bar-box2 topbox'>
                     <p><span><FiMail />&nbsp;</span> info@9silver.biz</p>
                 </div>
 

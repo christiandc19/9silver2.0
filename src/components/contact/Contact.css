@@ -33,6 +33,11 @@
     color: white;
 }
 
+.contact-hero h2 {
+    color: white;
+    font-size: 2rem;
+}
+
 .contact-hero p {
     font-family: 'Montserrat', sans-serif;
     color: white;

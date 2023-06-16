@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import logo from "../../assets/nav-logo.png";
-import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 import "./FooterStyles.css";
 
 import { Link as LinkRoll } from "react-scroll";
@@ -33,7 +32,8 @@ const Footer = () => {
             </LinkRoll>
           </div>
           <div className="col-container">
-            <div className="col">
+
+            <div className="footer-col">
               <h3>Navigation</h3>
 
               <LinkRoll
@@ -48,17 +48,6 @@ const Footer = () => {
                 </Link>
               </LinkRoll>
 
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/treatment">
-                  <p>Sober Living</p>
-                </Link>
-              </LinkRoll>
 
               <LinkRoll
                 activeClass="active"
@@ -67,7 +56,7 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/insurance">
+                <Link to="/about">
                   <p>About Us</p>
                 </Link>
               </LinkRoll>
@@ -85,8 +74,8 @@ const Footer = () => {
               </LinkRoll>
             </div>
 
-            <div className="col">
-              <h3>LOCATIONS</h3>
+            <div className="footer-col">
+              <h3>Corporate Office</h3>
               <LinkRoll
                 activeClass="active"
                 to="top"
@@ -95,45 +84,12 @@ const Footer = () => {
                 duration={500}
               >
                 <Link to="/north-citrus">
-                  <p>North Citus, Los Angeles</p>
+                  <p>1800 Vine Street, Los Angeles CA 90028</p>
                 </Link>
               </LinkRoll>
 
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/north-detroit">
-                  <p>North Detroit, Los Angeles</p>
-                </Link>
-              </LinkRoll>
-
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/huntington-beach">
-                  <p>Huntington Beach,California</p>
-                </Link>
-              </LinkRoll>
-
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/west-hollywood">
-                  <p>West Hollywood, California</p>
-                </Link>
-              </LinkRoll>
+             
+              
 
               <LinkRoll
                 activeClass="active"
@@ -148,14 +104,7 @@ const Footer = () => {
               </LinkRoll>
             </div>
 
-            <form>
-              <h3>Follow Us:</h3>
-              <div className="social-group">
-                <FiInstagram className="social-icon" />
-                <FiFacebook className="social-icon" />
-                <FiLinkedin className="social-icon" />
-              </div>
-            </form>
+
           </div>
           <p className="copyright">
             <p>&copy; 2023 9 Silver. ALL RIGHTS RESERVED.</p>

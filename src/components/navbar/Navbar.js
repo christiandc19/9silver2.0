@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { NavLink, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 import logo from "../../assets/nav-logo-bl.png";
-import { FiChevronDown } from "react-icons/fi";
 import Topbar from "../../components/topbar/Topbar";
 
 import "./Navbar.css";
@@ -11,31 +10,8 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
 
-  const [isMenu, setisMenu] = useState(false);
 
-  const toggleClass = () => {
-    setisMenu(isMenu === false ? true : false);
-  };
-
-  let boxClass = ["main-menu menu-right menuq1"];
-  if (isMenu) {
-    boxClass.push("menuq2");
-  } else {
-    boxClass.push("");
-  }
-
-  const [isMenuSubMenu, setMenuSubMenu] = useState(false);
-
-  const toggleSubmenu = () => {
-    setMenuSubMenu(isMenuSubMenu === false ? true : false);
-  };
-
-  let boxClassSubMenu = ["sub__menus"];
-  if (isMenuSubMenu) {
-    boxClassSubMenu.push("sub__menus__Active");
-  } else {
-    boxClassSubMenu.push("");
-  }
+  
 
   return (
     <>
@@ -58,72 +34,6 @@ const Navbar = () => {
           <ul className={nav ? "nav-menu active" : "nav-menu"}>
             <li>
               <Link to="/">Home</Link>
-            </li>
-
-            <li
-              onClick={toggleSubmenu}
-              className="menu-item sub__menus__arrows"
-            >
-              location <FiChevronDown />
-              <ul className={boxClassSubMenu.join(" ")} id="submenu-item">
-                <li>
-                  {" "}
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active"
-                    to={`/north-citrus`}
-                  >
-                    {" "}
-                    North Citrus, Los Angeles{" "}
-                  </NavLink>{" "}
-                </li>
-                <li>
-                  {" "}
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active"
-                    to={`/north-detroit`}
-                  >
-                    {" "}
-                    North Detroit, Los Angeles
-                  </NavLink>{" "}
-                </li>
-                <li>
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active"
-                    to={`/huntington-beach`}
-                  >
-                    {" "}
-                    Huntington Beach{" "}
-                  </NavLink>{" "}
-                </li>
-                <li>
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active"
-                    to={`/west-hollywood`}
-                  >
-                    {" "}
-                    West Hollywood{" "}
-                  </NavLink>{" "}
-                </li>
-                <li>
-                  {" "}
-                  <NavLink
-                    onClick={toggleClass}
-                    activeClassName="is-active"
-                    to={`/venice`}
-                  >
-                    {" "}
-                    Venice{" "}
-                  </NavLink>{" "}
-                </li>
-              </ul>
-            </li>
-
-            <li>
-              <Link to="/sober-living">SOBER LIVING</Link>{" "}
             </li>
 
             <li>

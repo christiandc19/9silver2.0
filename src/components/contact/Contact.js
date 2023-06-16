@@ -14,9 +14,8 @@ const Contact = () => {
             <div className="contact-hero-content">
             <Fade top>
                     <h1>HAVE SOME QUESTIONS?</h1>
-            </Fade>
-            <Fade right>
-                  <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week. </p>
+                    <p>Give us a call to speak to our HR Department</p>
+                    <h2>+1 (323) 643-3171 </h2>
             </Fade>
             </div>
      </div>

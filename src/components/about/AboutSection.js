@@ -17,36 +17,21 @@ const AboutSection = () => {
             <div className="about-left">
               <h1>ABOUT US</h1>
               <p>
-                9 Silver is a combination of sober living housing opportunities.
-                Our mission is to create a stable and productive future through
-                healing and close monitoring of all aspects of recovery. We
-                oversee a handful of recovery clinic locations and sober living
-                alternatives in Southern California.{" "}
+              Our mission at 9 Silver is to connect employees that are talented, motivated, and driven to excellence with great businesses by opening up opportunities for both. Our goals are to provide high-quality outsourced employment, human resource services, and to empower business owners and employees to be their best.
+              </p>
+              <br />
+              <p>
+                <span>
+                  <BsCheckLg />
+                </span>
+                We connect talents and job demands.
               </p>
               <br />
               <p>
                 <span>
                   <BsCheckLg />{" "}
                 </span>
-                To provide a structured environment that creates maximum
-                healing.
-              </p>
-              <br />
-              <p>
-                <span>
-                  <BsCheckLg />{" "}
-                </span>
-                To create a structured, safe, and functional recovery
-                environment that stabilizes your life and leads to long-term
-                stability.
-              </p>
-              <br />
-              <p>
-                <span>
-                  <BsCheckLg />{" "}
-                </span>
-                To create an environment of recovery and healing that helps you
-                rewrite your future and change your life.
+                We help jobseekers to find better offer from temporary employment to permanent.
               </p>
               <br />
             </div>

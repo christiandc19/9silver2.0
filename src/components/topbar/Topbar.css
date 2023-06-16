@@ -1,7 +1,7 @@
 .topbar {
     width: 100%;
     padding: .8rem;
-    background-color: #3E7B99;
+    background-color: rgb(43, 109, 153);
     position: relative;
 
 }
@@ -44,7 +44,7 @@
 
 
 @media screen and (max-width: 940px) {
-    .topbar {
+    .topbox {
         display: none;
     }
 }

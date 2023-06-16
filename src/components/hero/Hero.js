@@ -16,18 +16,16 @@ const Hero = () => {
   <div className="hero-caption">
 
     <Fade left>
-    <h1>LIVE <span>SOBER.</span> </h1>
+      <h1>YOUR FUTURE BEGINS HERE</h1>
     </Fade>
-    <Fade right>
-    <h1>HEAL <span>STRONGER.</span></h1>
-    </Fade>
+
 
     <Fade left>
-    <h2>Safety. Structure. Support. Healing</h2>
+    <h2>9 Silver can help you succeed</h2>
     </Fade>
 
     <Fade right>
-    <p>Transitional sober housing focused on healing and long-term recovery.
+    <p>Executive Search Firm Specializing in Healthcare Recruitment.
 </p>
     </Fade>
 

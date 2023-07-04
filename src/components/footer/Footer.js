@@ -88,20 +88,6 @@ const Footer = () => {
                 </Link>
               </LinkRoll>
 
-             
-              
-
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/venice">
-                  <p>Venice, California</p>
-                </Link>
-              </LinkRoll>
             </div>
 
 

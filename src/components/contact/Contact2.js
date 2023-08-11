@@ -29,8 +29,8 @@ const ContactForm = () => {
 
 
     <div className="contact2-header contact2-container">
-        <h1>DO YOU NEED URGENT HELP?</h1>
-        <p>Our Support team is available 24 hours a day 7 Days a week.</p>
+        <h1>HAVE SOME QUESTIONS?</h1>
+        <p>Contact Us Directly. </p>
     </div>
 
 <div class="contact2-container">
@@ -60,7 +60,7 @@ const ContactForm = () => {
 
       <div class="right-side">
         <div class="topic-text">Send us a message</div> <br/>
-        <p className="topic-text-p">Please call our admission department if you have any questions.</p>
+        <p className="topic-text-p">We'll keep your contact information strictly confidential.</p>
       <form ref={form} onSubmit={sendEmail}>
         <div class="input-box">
         <input type="text" name='name' placeholder='Your Name' required />

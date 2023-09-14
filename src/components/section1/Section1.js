@@ -11,6 +11,15 @@ const Section1 = () => {
   return (
     <>
       <div className='section1'>
+
+        <Fade left>
+            <div className='section1-header'>
+                <h1>Why 9 Silver?</h1><br/>
+                <p>Top offers from the best employers in the market. Apply and we will support you throughout the recruitment process.
+                </p>
+            </div>
+        </Fade>
+
         <div className='section1-flex1'>
 
         <Fade left>

@@ -26,7 +26,6 @@
   font-size: 4rem;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  line-height: 3.7rem;
   text-align: center;
 
 }
@@ -88,25 +87,20 @@
 	animation-timing-function: linear;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 940px) {
   .hero-caption {
     width: 100%;
-    top: 30%;
+    top: 40%;
     left: 0%;
     text-align: center;
   }
 
   .hero-caption h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .hero-caption h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .hero-caption h1 {
-    font-size: 2.5rem;
-  }
-}

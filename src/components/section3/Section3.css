@@ -15,8 +15,8 @@
     font-size: 3rem;
     font-weight: bold;
     color: rgb(57, 58, 58);
-    line-height: 3.5rem;
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+}
 
 .section3-content p {
     font-size: 18px;
@@ -24,7 +24,11 @@
 }
 
 
-  
+@media screen and (max-width:940px)  {
+    .section3-content h1 {
+        font-size: 2rem;
+    }
+}
 
   
 

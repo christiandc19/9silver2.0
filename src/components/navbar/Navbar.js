@@ -18,16 +18,12 @@ const Navbar = () => {
       <Topbar />
 
       <div name="top" className="navbar">
+
         <div className="navbar-container">
+          
           <div className="navbar-logo">
             <Link to="/">
-              <img
-                src={logo}
-                width="150px"
-                height="70px"
-                alt="9 Silver Logo"
-                loading="lazy"
-              />
+              <img src={logo} alt="9 Silver Logo" loading="lazy"/>
             </Link>
           </div>
 

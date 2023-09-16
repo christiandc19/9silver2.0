@@ -31,12 +31,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: .5rem;
 }
 
 .column
 {
-  flex: 33.33%;
-  max-width: 33.33%;
+  flex: 30%;
+  max-width: 30%;
   box-sizing:  border-box;
   border: 1px solid rgba(57, 58, 58, 0.082);
   background-color: rgb(250, 250, 250);
@@ -69,7 +70,7 @@
   padding: .4rem 2rem;
 }
 
-@media screen and (max-width: 960px)
+@media screen and (max-width: 940px)
 {
 
 
@@ -77,6 +78,20 @@
   {
     flex: 80%;
     max-width: 80%;
+  }
+
+
+}
+
+
+@media screen and (max-width: 700px)
+{
+
+
+  .column
+  {
+    flex: 80%;
+    max-width: 100%;
   }
 
 
